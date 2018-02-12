@@ -1,0 +1,17 @@
+h1{
+	float: left;
+	background-color: black;
+	font-style: bold;
+	font-size: 20px;
+	color: white;
+}
+
+.instructions{
+	float: left;
+	background-color: green;
+	font-style: bold;
+	font-size: 12px;
+	color: white;
+}
+
+

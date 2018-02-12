@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+	<body background="assets/images/green-bckgrnd.png">
+	<header>
+		<h1> Crystals Collector</h1>
+	</header>
+	
+	<div class="container1">
+		
+		<div class="instructions">
+			<p> 1.You will be given a random "number to guess" at the start of the game.</p>
+			<p>2.There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>3.You win the game by matching your total score to the "number to guess". </p>
+			<p> 4.You lose the game if your total score goes above he random number.</p>
+			<p>5.The value of each crystal is hidden from you until you click on it.</p>
+			<p> 6.Each time the game starts, the values on the crystals change too!</p>
+		</div>
+	</div>
+
+		
+	<div class="computerNum"></div>
+		
+		<div class="image-conatiner">
+			<div class="redGem"><img src="assets/images/red.png" alt="red" height="100px" width="100px"></div>
+			
+			<div class="blueGem"><img src="assets/images/blue.png" alt="blue" height="100px" width="100px"></div>
+			
+			<div class="greenGem"><img src="assets/images/green.png" alt="green" height="100px" width="100px"></div>
+			
+			<div class="yellowGem"><img src="assets/images/yellow.png" alt="yellow" height="100px" width="100px"></div>
+		</div>
+		
+		<div class="winWrite">Wins</div>
+		<div class="winCount"></div>
+		
+		<div class="lossWrite">Losses</div>
+		<div class="lossCount"></div>
+		
+		<div class="scoreText">Your Total Score is:</div>
+		<div class="finalScore"></div>
+	
+	</div>
+<!-- <JAVASCRIPT--> 
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
