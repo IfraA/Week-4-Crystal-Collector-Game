@@ -6,7 +6,7 @@
 //write html and css for the layout and add images
   //create variable for:
   //computer generated number, total score of the player, random number for each of the four crystal,wins, losses,
-  var number = 0; // computer
+  var number; // computer
   var totalScore = 0; //total score
   var ranNum = [0,0,0,0]; //crystals random number 
   var wins = 0;
@@ -14,7 +14,7 @@
 
    //The player will be shown a random number at the start of the game.
    //generate a random number using math.random and display it on the screen as computer guess
-   number = (Math.floor(Math.random() * 101) + 19); //check this
+   number = (Math.floor(Math.random() * 101) + 19); 
    console.log(number);
 
    $(".computerNum").text(number);
@@ -91,7 +91,7 @@
     if(totalScore > number) {
       alert("You Lose!");
       loss++;
-      $(".winCount").text(loss);
+      $(".lossCount").text(loss);
       reset();
     }
    }
@@ -104,7 +104,7 @@
       totalScore = 0; 
       ranNum = [0,0,0,0]
 
-      number = (Math.floor(Math.random() * 101) + 19); //check this
+      number = (Math.floor(Math.random() * 101) + 19);
       console.log(number);
 
      $(".computerNum").text(number);
